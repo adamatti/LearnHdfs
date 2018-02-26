@@ -1,0 +1,12 @@
+version: "2.1"
+services:
+  hadoop:
+    image: sequenceiq/hadoop-docker:2.7.1
+    ports:
+      - "9000:9000"
+    # network_mode: 'host'
+  druid:
+    image: druidio/example-cluster
+    ports:
+      - "3000:8082"
+      - "3001:8081"

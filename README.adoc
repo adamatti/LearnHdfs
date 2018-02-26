@@ -1,0 +1,1 @@
+Pet project to show how to list / create files on HDFS using java client (from outside the bigdata cluster)
